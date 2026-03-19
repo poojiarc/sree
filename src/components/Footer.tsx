@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Home, Info, Factory, Phone, ShoppingCart, Mail, MapPin, Clock, Linkedin, Heart, Wrench, Settings, Shield, Headphones, BookOpen, Cog } from "lucide-react";
-import logo from "@/assets/logo.png";
+import logo from "@/assets/logo.jpeg";
 
 const Footer = () => {
   return (

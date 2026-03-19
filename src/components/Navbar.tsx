@@ -48,7 +48,7 @@ const Navbar = () => {
               className="ml-2 flex items-center gap-1.5 px-5 py-2.5 rounded-full bg-sreenex-red text-primary-foreground font-semibold text-sm hover:opacity-90 transition-opacity shadow-md"
             >
               <ShoppingCart size={16} />
-              Book a Product
+              Enquiry Now
             </Link>
           </div>
 

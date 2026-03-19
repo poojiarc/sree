@@ -8,25 +8,68 @@ import hero3 from "@/assets/hero-3.jpg";
 import aboutImg from "@/assets/logo.png";
 import { products } from "@/data/products";
 
-import client1 from "@/assets/clients/client-1.jpg";
-import client2 from "@/assets/clients/client-2.jpg";
-import client3 from "@/assets/clients/client-3.jpg";
-import client4 from "@/assets/clients/client-4.jpg";
-import client5 from "@/assets/clients/client-5.jpg";
-import client6 from "@/assets/clients/client-6.jpg";
-import client7 from "@/assets/clients/client-7.jpg";
-import client8 from "@/assets/clients/client-8.jpg";
-import client9 from "@/assets/clients/client-9.jpg";
-import client10 from "@/assets/clients/client-10.jpg";
-import client11 from "@/assets/clients/client-11.jpg";
-import client12 from "@/assets/clients/client-12.jpg";
-import client13 from "@/assets/clients/client-13.jpg";
-import client14 from "@/assets/clients/client-14.jpg";
-import client15 from "@/assets/clients/client-15.jpg";
-import client16 from "@/assets/clients/client-16.jpg";
+import biocon from "@/assets/clients/biocon.webp";
+import cargill from "@/assets/clients/Cargil.jpg";
+import cipla from "@/assets/clients/cipla.png";
+import clariant from "@/assets/clients/Clariant.jpg";
+import cohance from "@/assets/clients/cohance.png";
+import cronus from "@/assets/clients/cronus.png";
+import divis from "@/assets/clients/divis.png";
+import drReddy from "@/assets/clients/dr-reddy.png";
+import gpt from "@/assets/clients/GPt.png";
+import granules from "@/assets/clients/Granules.jpg";
+import hetero from "@/assets/clients/hetero.png";
+import lantech from "@/assets/clients/lantech.png";
+import laurus from "@/assets/clients/Laurus.png";
+import leePharma from "@/assets/clients/lee-Pharma.png";
+import lupin from "@/assets/clients/lupin.png";
+import malladi from "@/assets/clients/MALLADI.webp";
+import metrochem from "@/assets/clients/METROCHEM.png";
+import mfl from "@/assets/clients/MFL.png";
+import microLabs from "@/assets/clients/micro-labs.jpg";
+import msn from "@/assets/clients/MSN.png";
+import natco from "@/assets/clients/natco-pharma.avif";
+import neuland from "@/assets/clients/NEULAND.jpg";
+import orchid from "@/assets/clients/orchid-pharma.jpg";
+import sami from "@/assets/clients/Sami labs.webp";   // ✅ FIXED
+import sekhmet from "@/assets/clients/Sekhmet.webp";
+import srikrishna from "@/assets/clients/Srikirishna.jpg";
+import virchows from "@/assets/clients/virchows.png";
+import aurobindo from "@/assets/clients/aurbindo.jpg";
+import balaPharma from "@/assets/clients/bala-pharma.png";
 
 const heroImages = [hero1, hero2, hero3];
-const clientLogos = [client1, client2, client3, client4, client5, client6, client7, client8, client9, client10, client11, client12, client13, client14, client15, client16];
+const clientLogos = [
+  biocon,
+  cargill,
+  cipla,
+  clariant,
+  cohance,
+  cronus,
+  divis,
+  drReddy,
+  gpt,
+  granules,
+  hetero,
+  lantech,
+  laurus,
+  leePharma,
+  lupin,
+  malladi,
+  metrochem,
+  mfl,
+  microLabs,
+  msn,
+  natco,
+  neuland,
+  orchid,
+  sami,
+  sekhmet,
+  srikrishna,
+  virchows,
+  aurobindo,
+  balaPharma,
+];
 
 const services = [
   {
@@ -308,7 +351,7 @@ const Index = () => {
                 key={i}
                 src={logo}
                 alt={`Client ${(i % clientLogos.length) + 1}`}
-                className="h-14 md:h-16 w-auto grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all cursor-pointer object-contain"
+                className="h-14 md:h-16 w-auto object-contain hover:scale-105 transition-all duration-300"
               />
             ))}
           </div>
