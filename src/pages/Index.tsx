@@ -5,7 +5,7 @@ import { ArrowRight, Search, Settings, Wrench, Shield, Cog, Headphones, Phone, M
 import hero1 from "@/assets/hero-1.jpg";
 import hero2 from "@/assets/hero-2.jpg";
 import hero3 from "@/assets/hero-3.jpg";
-import aboutImg from "@/assets/about-factory.jpg";
+import aboutImg from "@/assets/logo.png";
 import { products } from "@/data/products";
 
 import client1 from "@/assets/clients/client-1.jpg";
@@ -201,11 +201,13 @@ const Index = () => {
               transition={{ duration: 0.6 }}
               className="relative"
             >
-              <img
-                src={aboutImg}
-                alt="Sreenex Factory"
-                className="rounded-2xl shadow-2xl w-full object-cover aspect-[4/3]"
-              />
+              <div className="rounded-2xl shadow-2xl bg-white flex items-center justify-center p-8 aspect-[4/3]">
+  <img
+    src={aboutImg}
+    alt="Sreenex Logo"
+    className="max-w-full max-h-full object-contain"
+  />
+</div>
               <div className="absolute -bottom-6 -left-6 bg-primary text-primary-foreground p-6 rounded-2xl shadow-xl hidden md:block">
                 <div className="text-2xl font-display font-bold">EST. 1970</div>
                 <div className="text-sm text-primary-foreground/80">Hyderabad, India</div>

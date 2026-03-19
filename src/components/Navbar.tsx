@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Home, Info, Factory, Phone, ShoppingCart, Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
-import logo from "@/assets/sreenex-logo.png";
+import logo from "@/assets/logo.png";
 
 const navItems = [
   { label: "Home", path: "/", icon: Home },

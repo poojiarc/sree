@@ -6,6 +6,11 @@ import pinMill from "@/assets/products/pin-mill.jpg";
 import turboMill from "@/assets/products/turbo-mill.jpg";
 import flexiMill from "@/assets/products/flexi-mill.jpg";
 import coneMill from "@/assets/products/cone-mill.jpg";
+import extruder from "@/assets/products/Extruder.jpg";  
+import lump from "@/assets/products/lump-breaker.jpg";
+import octagonal from "@/assets/products/octagonal.jpg";
+import polygon from "@/assets/products/polygon blender.jpg";
+import vibroShifter from "@/assets/products/vibro-shifter.jpg";
 
 export interface Product {
   id: string;
@@ -144,7 +149,7 @@ export const products: Product[] = [
     slug: "lump-breaker",
     shortDescription: "Efficient breaking of lumps and agglomerates in pharmaceutical processing.",
     description: "The Sreenex Lump Breaker is designed for efficient breaking of lumps and agglomerates in pharmaceutical, chemical, and food processing industries. It ensures uniform particle size distribution while maintaining the integrity of the material. The machine features robust construction with stainless steel contact parts, easy cleaning access, and cGMP-compliant design for pharmaceutical manufacturing environments.",
-    image: multimill,
+    image: lump,
     category: "process",
   },
   {
@@ -153,7 +158,7 @@ export const products: Product[] = [
     slug: "vibro-sifter",
     shortDescription: "High-efficiency screening and separation of pharmaceutical powders.",
     description: "The Sreenex Vibro Sifter provides high-efficiency screening and separation of pharmaceutical powders and granules. Utilizing vibratory motion to separate particles by size, it ensures consistent product quality and removes oversized particles and foreign contaminants. The machine is built with GMP standards in mind, featuring stainless steel construction, easy-to-clean design, and multiple screen options for versatile applications.",
-    image: flexiMill,
+    image: vibroShifter,
     category: "process",
   },
   {
@@ -162,7 +167,7 @@ export const products: Product[] = [
     slug: "octagonal-blender",
     shortDescription: "Uniform blending of dry powders and granules with octagonal design.",
     description: "The Sreenex Octagonal Blender provides uniform blending of dry powders and granules through its unique octagonal shape, which creates a tumbling and folding motion for thorough mixing. Widely used in pharmaceutical, chemical, and food industries, it ensures homogeneous blending without degrading particle structure. Features include GMP-compliant stainless steel construction, safety interlocks, and variable speed drives for precise control.",
-    image: coneMill,
+    image: octagonal,
     category: "process",
   },
   {
@@ -171,7 +176,7 @@ export const products: Product[] = [
     slug: "polygon-blender",
     shortDescription: "Advanced blending technology with polygon container design.",
     description: "The Sreenex Polygon Blender features an advanced polygon-shaped container that provides superior blending efficiency for pharmaceutical powders and granules. The multi-faceted design creates complex tumbling patterns that ensure thorough and homogeneous mixing. Built to cGMP standards with stainless steel construction, it delivers consistent batch-to-batch quality with easy loading, unloading, and cleaning capabilities.",
-    image: pinMill,
+    image: polygon,
     category: "process",
   },
   {
@@ -180,7 +185,7 @@ export const products: Product[] = [
     slug: "extruder",
     shortDescription: "Precision extrusion for pharmaceutical granulation and processing.",
     description: "The Sreenex Extruder is designed for precision extrusion in pharmaceutical granulation and wet processing applications. It produces uniform cylindrical extrudates that are essential for spheronization and pelletization processes. The machine features variable speed control, interchangeable screens for different pellet sizes, and cGMP-compliant stainless steel construction for pharmaceutical manufacturing.",
-    image: turboMill,
+    image: extruder,
     category: "process",
   },
 ];

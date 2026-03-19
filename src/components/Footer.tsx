@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Home, Info, Factory, Phone, ShoppingCart, Mail, MapPin, Clock, Linkedin, Heart, Wrench, Settings, Shield, Headphones, BookOpen, Cog } from "lucide-react";
-import logo from "@/assets/sreenex-logo.png";
+import logo from "@/assets/logo.png";
 
 const Footer = () => {
   return (
@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Brand */}
           <div>
-            <img src={logo} alt="Sreenex" className="h-12 mb-4 brightness-0 invert" />
+            <img src={logo} alt="Sreenex" className="h-12 mb-4 object-contain" />
             <p className="text-sm text-primary-foreground/70 leading-relaxed">
               Precision-engineered pharmaceutical machinery since 1970. Trusted by 200+ clients across India and abroad.
             </p>
@@ -100,12 +100,24 @@ const Footer = () => {
 
       <div className="border-t border-primary-foreground/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 text-center space-y-2">
-          <p className="text-sm text-primary-foreground/60 flex items-center justify-center gap-1">
-            Made with <Heart size={14} className="text-sreenex-red fill-current" /> by{" "}
-            <a href="https://staffarc.com" target="_blank" rel="noopener noreferrer" className="font-semibold hover:text-primary-foreground transition-colors">
-              StaffArc
-            </a>
-          </p>
+          <div className="flex justify-center items-center gap-1 text-sm text-primary-foreground/60">
+  Made with 
+  <Heart className="inline h-4 w-4 text-red-500 mx-1" /> 
+  by
+  <a
+    href="https://staffarc.in"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex items-center gap-1 text-orange-400 hover:underline ml-1"
+  >
+    <img
+      src="https://www.staffarc.in/images/Staffarc-logo.png"
+      alt="StaffArc logo"
+      className="h-5 w-5 object-contain"
+    />
+    StaffArc
+  </a>
+</div>
           <p className="text-xs text-primary-foreground/40">
             © {new Date().getFullYear()} Sreenex Machines Pvt. Ltd. All rights reserved.
           </p>

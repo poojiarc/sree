@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import aboutImg from "@/assets/about-factory.jpg";
+import aboutImg from "@/assets/logo.png";
 import heroFactory from "@/assets/hero-factory.jpg";
 
 const About = () => {
@@ -54,7 +54,13 @@ const About = () => {
               transition={{ duration: 0.6 }}
               className="space-y-8"
             >
-              <img src={aboutImg} alt="Sreenex Factory" className="rounded-2xl shadow-xl w-full object-cover aspect-[4/3]" />
+              <div className="rounded-2xl shadow-xl bg-white flex items-center justify-center p-10 aspect-[4/3]">
+  <img 
+    src={aboutImg} 
+    alt="Sreenex Logo" 
+    className="max-h-full max-w-full object-contain" 
+  />
+</div>
 
               <div className="grid grid-cols-3 gap-4">
                 {[
