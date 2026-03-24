@@ -34,35 +34,66 @@ const About = () => {
               <h2 className="text-3xl md:text-4xl font-display font-bold text-foreground mb-6">
                 A Legacy of Precision Engineering
               </h2>
-              <div className="space-y-4 text-muted-foreground leading-relaxed">
-  <p>
-    <strong className="text-foreground">SREENEX</strong> was founded in 
-    <strong className="text-primary"> 1973 </strong> 
-    by 
-    <strong className="text-primary"> Mr. Arjuna Rao Lolakpuri </strong> 
-    in Hyderabad. Drawing on his extensive experience as a former employee of 
-    <strong className="text-foreground"> I.D.P.L. </strong>, 
-    his vision led to the establishment of a company that has grown exponentially, developing a wide range of 
-    <strong className="text-foreground"> high-quality pharma machinery</strong>.
-  </p>
+              <motion.div
+  initial={{ opacity: 0, x: -30 }}
+  whileInView={{ opacity: 1, x: 0 }}
+  viewport={{ once: true }}
+  transition={{ duration: 0.6 }}
+>
+  <h2 className="text-3xl md:text-4xl font-display font-bold text-foreground mb-6">
+    A Legacy of Precision Engineering
+  </h2>
 
-  <p>
-    Our unwavering commitment is to design and manufacture machines tailored to meet the unique needs of our valued customers. Over the years, we have successfully installed more than 
-    <strong className="text-primary"> 6,000+ machines </strong> 
-    across various industries, including 
-    <strong className="text-foreground"> bulk drugs, formulations, chemicals,</strong> 
-    and allied products, both in India and abroad.
-  </p>
+  {/* ✅ ABOUT US BLOCK */}
+  <div className="space-y-4 text-muted-foreground leading-relaxed mb-8">
+    <p>
+      <strong className="text-foreground">SREENEX</strong> was founded in 
+      <strong className="text-primary"> 1973 </strong> 
+      by <strong className="text-primary"> Mr. Arjuna Rao Lolakpuri </strong>in Hyderabad. Drawing on his extensive experience as a former employee of I.D.P.L., Mr. Lolakpuri's vision led to the establishment of a company that has grown exponentially, developing a wide range of high-quality pharma machinery.
+    </p>
 
-  <p>
-    This widespread presence has solidified our reputation as a 
-    <strong className="text-foreground"> trusted partner</strong>, 
-    recognized for our 
-    <strong className="text-foreground"> engineering excellence </strong> 
-    and commitment to 
-    <strong className="text-foreground"> quality</strong>.
-  </p>
-</div>
+    <p>
+      Our unwavering commitment is to design and manufacture machines tailored to meet the unique needs of our valued customers. Over the years, we have successfully installed more than 6,000 machines across various industries, including bulk drugs, formulations, chemicals, and allied products, both in India and abroad.
+    </p>
+
+    <p>
+      This widespread presence has solidified our reputation as a trusted partner, recognized for our dedication to delivering quality products and engineering excellence.
+    </p>
+  </div>
+
+  {/* ✅ MANAGING DIRECTOR BLOCK */}
+  <motion.div
+    initial={{ opacity: 0, y: 20 }}
+    whileInView={{ opacity: 1, y: 0 }}
+    viewport={{ once: true }}
+    transition={{ duration: 0.6 }}
+    className="p-6 bg-slate-100 border border-border rounded-2xl shadow-sm"
+  >
+    <h3 className="text-xl font-display font-bold text-primary mb-1">
+      L. ARJUN RAO
+    </h3>
+
+    <p className="text-sm text-muted-foreground mb-4">
+      Managing Director
+    </p>
+
+    <p className="text-sm text-muted-foreground leading-relaxed mb-3">
+      It is the policy of SREENEX Machines Private Limited to satisfy the customers in manufacturing pharmaceutical machinery, and to continuously improve by implementing cGMP standards.
+    </p>
+
+    <p className="text-sm text-muted-foreground leading-relaxed mb-3">
+      We design, develop, and manufacture in-house. Our services include flexible lead times, custom design based on application, and design for cost-effective manufacturing.
+    </p>
+
+    <p className="text-sm text-muted-foreground leading-relaxed mb-3">
+      We strive to be the industry standard in service to customers and to provide the highest quality products through our highly skilled and dedicated employees.
+    </p>
+
+    <p className="text-sm text-muted-foreground italic">
+      “Quality is never an accident. It is the result of intellectual efforts in doing every activity right at all times.”
+    </p>
+  </motion.div>
+</motion.div>
             </motion.div>
 
             <motion.div
