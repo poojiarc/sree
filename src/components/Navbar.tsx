@@ -97,7 +97,7 @@ const Navbar = () => {
                 className="flex items-center gap-3 px-4 py-3 rounded-lg bg-sreenex-red text-primary-foreground font-semibold text-sm"
               >
                 <ShoppingCart size={18} />
-                Book a Product Now
+                Enquire Now
               </Link>
             </div>
           </motion.div>

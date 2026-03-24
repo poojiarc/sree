@@ -180,7 +180,7 @@ const Index = () => {
                 to="/book"
                 className="inline-flex items-center justify-center gap-2 border border-primary-foreground/30 text-primary-foreground px-8 py-4 rounded-full font-semibold transition-all hover:bg-primary-foreground/10"
               >
-                Book a Product Now
+                Enquire Now
               </Link>
             </div>
           </motion.div>

@@ -99,7 +99,7 @@ const ProductDetail = () => {
                   to="/book"
                   className="inline-flex items-center gap-2 bg-sreenex-red text-primary-foreground px-8 py-4 rounded-full font-semibold hover:opacity-90 transition-opacity shadow-lg"
                 >
-                  Book This Product
+                  Enquire Now
                 </Link>
               </div>
             </motion.div>

@@ -34,7 +34,7 @@ const BookProduct = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
             <span className="text-accent font-medium tracking-widest uppercase text-sm">Inquire Now</span>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold text-primary-foreground mt-2">Book a Product</h1>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold text-primary-foreground mt-2">Enquire Now</h1>
             <p className="text-lg text-primary-foreground/70 mt-4 max-w-xl">
               Fill out the form below and our team will get back to you shortly.
             </p>

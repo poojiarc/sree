@@ -24,7 +24,7 @@ const Footer = () => {
                 { label: "About Us", path: "/about", icon: Info },
                 { label: "Products", path: "/products", icon: Factory },
                 { label: "Contact Us", path: "/contact", icon: Phone },
-                { label: "Book a Product", path: "/book", icon: ShoppingCart },
+                { label: "Enquire Now", path: "/book", icon: ShoppingCart },
               ].map((item) => {
                 const Icon = item.icon;
                 return (
