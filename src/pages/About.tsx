@@ -35,16 +35,34 @@ const About = () => {
                 A Legacy of Precision Engineering
               </h2>
               <div className="space-y-4 text-muted-foreground leading-relaxed">
-                <p>
-                  <strong className="text-foreground">SREENEX</strong> was founded in 1973 by Mr. Arjuna Rao Lolakpuri in Hyderabad. Drawing on his extensive experience as a former employee of I.D.P.L., Mr. Lolakpuri's vision led to the establishment of a company that has grown exponentially, developing a wide range of high-quality machinery.
-                </p>
-                <p>
-                  Our unwavering commitment is to design and manufacture machines tailored to meet the unique needs of our valued customers. Over the years, we have successfully installed more than 6,000 specially designed machines across various industries, including pharmaceuticals, bulk drugs, formulations, chemicals, and allied products, both in India and abroad. This widespread presence has solidified our reputation as a trusted partner, recognized for our dedication to delivering quality products and engineering excellence.
-                </p>
-                <p>
-                  As pioneers in the field of pharmaceutical machinery, we have been at the forefront of developing innovative equipment, such as Size Reduction Mills, Blenders, Roll Compactors, and Screen Separators, among others. With over <strong className="text-foreground">50 years</strong> of industry expertise, we specialize in providing cutting-edge machinery that ensures efficiency, regulatory compliance, and optimal performance.
-                </p>
-              </div>
+  <p>
+    <strong className="text-foreground">SREENEX</strong> was founded in 
+    <strong className="text-primary"> 1973 </strong> 
+    by 
+    <strong className="text-primary"> Mr. Arjuna Rao Lolakpuri </strong> 
+    in Hyderabad. Drawing on his extensive experience as a former employee of 
+    <strong className="text-foreground"> I.D.P.L. </strong>, 
+    his vision led to the establishment of a company that has grown exponentially, developing a wide range of 
+    <strong className="text-foreground"> high-quality pharma machinery</strong>.
+  </p>
+
+  <p>
+    Our unwavering commitment is to design and manufacture machines tailored to meet the unique needs of our valued customers. Over the years, we have successfully installed more than 
+    <strong className="text-primary"> 6,000+ machines </strong> 
+    across various industries, including 
+    <strong className="text-foreground"> bulk drugs, formulations, chemicals,</strong> 
+    and allied products, both in India and abroad.
+  </p>
+
+  <p>
+    This widespread presence has solidified our reputation as a 
+    <strong className="text-foreground"> trusted partner</strong>, 
+    recognized for our 
+    <strong className="text-foreground"> engineering excellence </strong> 
+    and commitment to 
+    <strong className="text-foreground"> quality</strong>.
+  </p>
+</div>
             </motion.div>
 
             <motion.div
