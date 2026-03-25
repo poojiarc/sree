@@ -137,7 +137,7 @@ const About = () => {
       </section>
 
       {/* How We Work */}
-      <section className="pt-8 pb-16 bg-background">
+      <section className="pt-0 pb-0 bg-background">
         <div className="container-narrow">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
