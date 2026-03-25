@@ -87,15 +87,15 @@ const Contact = () => {
               className="rounded-2xl overflow-hidden border border-border shadow-lg"
             >
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.5!2d78.55!3d17.41!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTfCsDI0JzM2LjAiTiA3OMKwMzMnMDAuMCJF!5e0!3m2!1sen!2sin!4v1710000000000"
-                width="100%"
-                height="100%"
-                style={{ border: 0, minHeight: "450px" }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                title="Sreenex Machines Location"
-              />
+  src="https://www.google.com/maps?q=Plot%20No%206/4%20Road%20No%2011%20IDA%20Nacharam%20Hyderabad%20500076&output=embed"
+  width="100%"
+  height="100%"
+  style={{ border: 0, minHeight: "450px" }}
+  allowFullScreen
+  loading="lazy"
+  referrerPolicy="no-referrer-when-downgrade"
+  title="Sreenex Machines Location"
+/>
             </motion.div>
           </div>
         </div>

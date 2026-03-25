@@ -68,7 +68,7 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start gap-2 text-sm text-primary-foreground/70">
                 <Phone size={14} className="mt-0.5 shrink-0" />
-                <span>+91 88850 44726<br />+91 98490 44726<br />+91 96666 34726</span>
+                <span>+91 96666 34726<br />+91 98490 44726<br />+91 88850 44726</span>
               </li>
               <li className="flex items-center gap-2 text-sm text-primary-foreground/70">
                 <Mail size={14} className="shrink-0" />
@@ -80,7 +80,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-2 text-sm text-primary-foreground/70">
                 <Clock size={14} className="shrink-0" />
-                Mon–Sat: 9:30 AM – 5:30 PM
+                Mon–Sat: 9:00 AM – 5:30 PM
               </li>
               <li>
                 <a
