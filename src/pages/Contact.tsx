@@ -35,10 +35,10 @@ const Contact = () => {
 
               <div className="space-y-6">
                 {[
-                  { icon: Phone, title: "Phone", lines: ["+91 88850 44726", "+91 98490 44726", "+91 96666 34726"] },
+                  { icon: Phone, title: "Phone", lines: ["+91 96666 34726", "+91 98490 44726","+91 88850 44726" ] },
                   { icon: Mail, title: "Email", lines: ["info@sreenex.com"] },
                   { icon: MapPin, title: "Address", lines: ["Plot No: 6/4, Road No. 11, IDA, Nacharam,", "Hyderabad-500076, Telangana, India"] },
-                  { icon: Clock, title: "Business Hours", lines: ["Monday to Saturday: 9:30 AM – 5:30 PM", "Sunday: Holiday"] },
+                  { icon: Clock, title: "Business Hours", lines: ["Monday to Saturday: 9:00 AM – 5:30 PM", "Sunday: Holiday"] },
                 ].map((item) => {
                   const Icon = item.icon;
                   return (
@@ -87,7 +87,7 @@ const Contact = () => {
               className="rounded-2xl overflow-hidden border border-border shadow-lg"
             >
               <iframe
-  src="https://www.google.com/maps?q=Plot%20No%206/4%20Road%20No%2011%20IDA%20Nacharam%20Hyderabad%20500076&output=embed"
+  src="https://www.google.com/maps/place/Sreenex+Machines+Pvt+Ltd/@17.4332417,78.5610865,17.28z/data=!4m6!3m5!1s0x3bcb90f74bffffff:0xc168de0ce54b2a87!8m2!3d17.4329891!4d78.5607157!16s%2Fg%2F1tcyjhbz!18m1!1e1?entry=ttu&g_ep=EgoyMDI2MDMyMi4wIKXMDSoASAFQAw%3D%3D"
   width="100%"
   height="100%"
   style={{ border: 0, minHeight: "450px" }}
