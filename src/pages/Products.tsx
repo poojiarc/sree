@@ -119,18 +119,18 @@ const Products = () => {
         if (catProducts.length === 0) return null;
 
         return (
-          <section key={cat.key} className="section-padding bg-card even:bg-background">
+          <section key={cat.key} className="py-8 bg-card even:bg-background">
             <div className="container-narrow">
               <motion.h2
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                className="text-2xl md:text-3xl font-display font-bold text-foreground mb-8"
+                className="text-2xl md:text-3xl font-display font-bold text-foreground mb-6"
               >
                 {cat.label}
               </motion.h2>
 
-              <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
                 {catProducts.map((product, i) => (
                   <motion.div
                     key={product.id}
@@ -172,7 +172,7 @@ const Products = () => {
       })}
 
       {/* ✅ ISO Certification Section */}
-      <section className="section-padding bg-background">
+      <section className="py-10 bg-background">
         <div className="container-narrow">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
 
