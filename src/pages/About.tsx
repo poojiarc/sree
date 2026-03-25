@@ -54,33 +54,53 @@ const About = () => {
   </div>
 
   {/* ✅ MANAGING DIRECTOR BLOCK */}
-  <motion.div
-    initial={{ opacity: 0, y: 20 }}
-    whileInView={{ opacity: 1, y: 0 }}
-    viewport={{ once: true }}
-    transition={{ duration: 0.6 }}
-    className="p-6 bg-slate-100 border border-border rounded-2xl shadow-sm"
-  >
-    <h3 className="text-xl font-display font-bold text-primary mb-1">
-      L. ARJUN RAO
-    </h3>
+  {/* ✅ MANAGING DIRECTOR FLIP CARD */}
+<div
+  className="perspective"
+  onClick={(e) => {
+    const card = e.currentTarget.querySelector(".flip-card-inner");
+    card?.classList.toggle("rotate-y-180");
+  }}
+>
+  <div className="flip-card-inner relative w-full h-[320px] transition-transform duration-500">
+    
+    {/* FRONT SIDE */}
+    <div className="absolute inset-0 flex items-center justify-center rounded-2xl shadow-md bg-primary text-white backface-hidden">
+      <div className="text-center px-6">
+        <h3 className="text-2xl font-bold mb-2">
+          L. ARJUN RAO
+        </h3>
+        <p className="text-sm opacity-80">
+          Managing Director
+        </p>
+      </div>
+    </div>
 
-    <p className="text-sm text-muted-foreground mb-4">
-      Managing Director
-    </p>
+    {/* BACK SIDE */}
+    <div className="absolute inset-0 p-6 bg-slate-100 border border-border rounded-2xl shadow-sm overflow-y-auto rotate-y-180 backface-hidden">
+      
+      <h3 className="text-xl font-display font-bold text-primary mb-1">
+        L. ARJUN RAO
+      </h3>
 
-    <p className="text-sm text-muted-foreground leading-relaxed mb-3">
-      It is the policy of SREENEX Machines Private Limited to satisfy the customers in manufacturing pharmaceutical machinery, and to continuously improve by implementing cGMP standards.
-    </p>
+      <p className="text-sm text-muted-foreground mb-4">
+        Managing Director
+      </p>
 
-    <p className="text-sm text-muted-foreground leading-relaxed mb-3">
-      We design, develop, and manufacture in-house. Our services include flexible lead times, custom design based on application, and design for cost-effective manufacturing.
-    </p>
+      <p className="text-sm text-muted-foreground leading-relaxed mb-3">
+        It is the policy of SREENEX Machines Private Limited to satisfy the customers in manufacturing pharmaceutical machinery, and to continuously improve by implementing cGMP standards.
+      </p>
 
-    <p className="text-sm text-muted-foreground italic">
-      “Quality is never an accident. It is the result of intellectual efforts in doing every activity right at all times.”
-    </p>
-  </motion.div>
+      <p className="text-sm text-muted-foreground leading-relaxed mb-3">
+        We design, develop, and manufacture in-house. Our services include flexible lead times, custom design based on application, and design for cost-effective manufacturing.
+      </p>
+
+      <p className="text-sm text-muted-foreground italic">
+        “Quality is never an accident. It is the result of intellectual efforts in doing every activity right at all times.”
+      </p>
+    </div>
+  </div>
+</div>
 </motion.div>
             
 
@@ -117,7 +137,7 @@ const About = () => {
       </section>
 
       {/* How We Work */}
-      <section className="section-padding bg-background">
+      <section className="pt-8 pb-16 bg-background">
         <div className="container-narrow">
           <motion.div
             initial={{ opacity: 0, y: 20 }}

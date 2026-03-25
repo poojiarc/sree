@@ -50,6 +50,25 @@
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
 }
+.perspective {
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  transform-style: preserve-3d;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+.rotate-y-180.backface-hidden {
+  transform: rotateY(180deg);
+}
 
 @layer base {
   * {
