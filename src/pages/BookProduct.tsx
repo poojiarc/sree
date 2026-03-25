@@ -316,7 +316,7 @@ const BookProduct = () => {
               className="w-full flex items-center justify-center gap-2 bg-sreenex-red text-primary-foreground py-4 rounded-full font-semibold hover:opacity-90 shadow-lg text-lg"
             >
               <Send size={18} />
-              Submit Inquiry
+              Submit Enquiry
             </button>
           </motion.form>
         </div>
