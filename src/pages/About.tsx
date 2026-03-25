@@ -34,15 +34,7 @@ const About = () => {
               <h2 className="text-3xl md:text-4xl font-display font-bold text-foreground mb-6">
                 A Legacy of Precision Engineering
               </h2>
-              <motion.div
-  initial={{ opacity: 0, x: -30 }}
-  whileInView={{ opacity: 1, x: 0 }}
-  viewport={{ once: true }}
-  transition={{ duration: 0.6 }}
->
-  <h2 className="text-3xl md:text-4xl font-display font-bold text-foreground mb-6">
-    A Legacy of Precision Engineering
-  </h2>
+              
 
   {/* ✅ ABOUT US BLOCK */}
   <div className="space-y-4 text-muted-foreground leading-relaxed mb-8">
@@ -85,16 +77,12 @@ const About = () => {
       We design, develop, and manufacture in-house. Our services include flexible lead times, custom design based on application, and design for cost-effective manufacturing.
     </p>
 
-    <p className="text-sm text-muted-foreground leading-relaxed mb-3">
-      We strive to be the industry standard in service to customers and to provide the highest quality products through our highly skilled and dedicated employees.
-    </p>
-
     <p className="text-sm text-muted-foreground italic">
       “Quality is never an accident. It is the result of intellectual efforts in doing every activity right at all times.”
     </p>
   </motion.div>
 </motion.div>
-            </motion.div>
+            
 
             <motion.div
               initial={{ opacity: 0, x: 30 }}
