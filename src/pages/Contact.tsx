@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { Phone, Mail, MapPin, Clock, Linkedin, MessageCircle } from "lucide-react";
 
 const Contact = () => {
-  const whatsappLink = "https://wa.me/+919666634726?text=Hello%20Sreenex%20Machines%2C%20I%20would%20like%20to%20inquire%20about%20your%20products.";
+  const whatsappLink = "https://wa.me/+919666634726?text=Hello%20Sreenex%20Machines%2C%20I%20would%20like%20to%20enquire%20about%20your%20products.";
 
   return (
     <div>

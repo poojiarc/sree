@@ -209,7 +209,7 @@ const BookProduct = () => {
             transition={{ duration: 0.6 }}
           >
             <span className="text-accent font-medium tracking-widest uppercase text-sm">
-              Inquire Now
+              Enquire Now
             </span>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold text-primary-foreground mt-2">
               Enquire Now
