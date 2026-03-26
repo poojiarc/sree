@@ -49,8 +49,8 @@ export const products: Product[] = [
     description: 'Enhance your operations with our Super Fine Pulverizer, designed to achieve ultra-fine particle size reduction for even the most challenging materials. The "SREENEX" Super Fine Pulverizer (without screen) utilizes internal material circulation to deliver exceptionally fine grinds at high capacities. With the adjustable inverter drive, operators can easily modify the particle size without the need to shut down the mill, depending on the material and required fineness. Crafted to the highest precision standards, our pulveriser ensures consistent, high-efficiency performance at all times.',
     image: superFinePulveriser,
     specs: [
-      { model: "SSFP 300", capacity: "11 Kg/Hr", motor: "50-150 HP" },
-      { model: "SSFP 400", capacity: "16 Kg/Hr", motor: "75-250 HP" },
+      { model: "SSFP 300", capacity: "25-150 Kg/Hr", motor: "10 HP" },
+      { model: "SSFP 400", capacity: "50-200 Kg/Hr", motor: "15 HP" },
     ],
     finenessRange: "25 - 75 Microns or finer",
     category: "pulverisers",

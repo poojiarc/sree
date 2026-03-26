@@ -87,10 +87,10 @@ const Contact = () => {
               className="rounded-2xl overflow-hidden border border-border shadow-lg"
             >
               <iframe
-  src="https://www.google.com/maps/place/Industrial+Development+Area,+Nacharam,+Secunderabad,+Telangana/@17.4352931,78.564982,15z/data=!3m1!4b1!4m6!3m5!1s0x3bcb9bff9dee31ab:0x60ca3db0c310619d!8m2!3d17.4333025!4d78.5662078!16s%2Fg%2F1hjgmxn3q!18m1!1e1?entry=ttu&g_ep=EgoyMDI2MDMyMi4wIKXMDSoASAFQAw%3D%3D"
+  src="https://www.google.com/maps?q=Sreenex+Machines+Private+Limited+Nacharam+Hyderabad&output=embed"
   width="100%"
-  height="100%"
-  style={{ border: 0, minHeight: "450px" }}
+  height="700"
+  style={{ border: 0 }}
   allowFullScreen
   loading="lazy"
   referrerPolicy="no-referrer-when-downgrade"
